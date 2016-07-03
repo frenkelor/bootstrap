@@ -276,8 +276,7 @@ angular.module('ui.bootstrap.datepicker', ['ui.bootstrap.dateparser', 'ui.bootst
 
       $scope.$emit('uib:datepicker.mode');
     }
-
-    $scope.$broadcast('uib:datepicker.focus');
+    
   };
 
   $scope.move = function(direction) {
